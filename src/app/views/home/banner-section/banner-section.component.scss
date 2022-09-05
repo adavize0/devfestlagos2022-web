@@ -2,12 +2,15 @@
 
 :host {
   display: block;
-  background: rgb(255, 255, 242);
+  // background: rgb(255, 255, 242); //Yellow pastel bg
+  background: hsl(118, 100%, 97%);
+
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  padding: 0.85rem;
+  padding: 0.9rem;
 
   @include md {
-    padding: 2.1rem 0 2.2rem 0;
+    padding: 1.8rem 0 2.2rem 0;
+    min-height: 30vh;
   }
 }
 
@@ -36,7 +39,7 @@
 
   @include md {
     height: unset;
-    border-radius: 10px;
+    border-radius: 6px;
   }
 }
 
